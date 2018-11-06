@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const request = require('request');
 const NewsAPI = require('newsapi');
 const app = express()
-const newsapi = new NewsAPI('4b87b31ab8a642e9b93561288fc290fb');
+const newsapi = new NewsAPI('********');
 
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!')
